@@ -1,0 +1,47 @@
+body{
+    font-family: "Roboto";
+    background: url(../img/jeremy-bishop-G9i_plbfDgk-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Nav Styles */
+
+.header_area .main_menu .navbar .navbar-brand{
+    padding: 0 2rem 0 3rem;
+}
+
+.header_area .main_menu .navbar{
+    padding: 1px 5rem;
+    background: black;
+}
+
+.header_area .main_menu .nav-item .nav-link{
+    font-family: "Roboto", cursive;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.3rem;
+    color: rgb(175, 174, 174);
+}
+
+#logoMike{
+    box-shadow: 5px 5px 10px black;
+}
+/* Nav style  */
+/* --------------------------- */
+
+.site-main{
+    padding: 5px;
+    height: auto;
+}
+
+/* .site-main .site-banner{
+    height: 90vh;
+    background: url(../img/jeremy-bishop-G9i_plbfDgk-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
