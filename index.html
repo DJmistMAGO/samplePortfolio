@@ -10,6 +10,11 @@
     <!-- --------------------My CSS-------------------------------------->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="dist/font-awesome/css/all.css">
+
+
+
     <title>Mike Stephen</title>
 </head>
 <body>
@@ -19,27 +24,21 @@
         <div class="main_menu">
             <nav class="navbar fixed-top navbar-expand-md navbar-dark">
                 <div class="container-lg">
-                    <a href="#" class="navbar-brand"><strong>MISTMAGO</strong></a>
+                    <a href="#" class="navbar-brand text-left"><strong>MISTMAGO</strong></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse text-white-50" id="navbarNav">
                         <div class="me-auto"></div>
                         <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a href="#" class="nav-link">Home</a>
-                            </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">My Cv</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Services</a>
+                                <a href="#boutme" class="nav-link">About Me</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link">My Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Contact Me</a>
                             </li>
                         </ul>
                     </div>
@@ -50,14 +49,15 @@
     <!-- -------------   End Header Area------------------------------ -->
 
     <!-- ================ Main Area ======================================= -->
-    <main class="site-main mt-5">
+    <main class="site-main mt-5" >
         <section class="site-banner mt-5">
             <div class="container-lg">
                 <div class="row justify-content-center align-items-center mt-3 mb-3">
-                    <div class="col-md-6 p-3 text-md-start">
+                    <div class="col-md-8 p-3 text-md-start">
                         <h3 class="text-white-50">Hi,</h3>
-                        <h1 class="text-uppercase text-white"><span class="text-muted">I am </span>Mike Stephen</h1>
-                        <h4 class="text-uppercase text-white-50">Fourth year <span class="text-warning">i</span>nformation <span class="text-warning">T</span>echnology Student</h4>
+                        <h1 class="text-uppercase text-white display-3 fw-bold"><span class="text-muted fw-normal">I'm </span>Mike Stephen</h1>
+                        <h5 class="text-uppercase text-white-50 mb-0">Fourth year <span class="text-warning">info</span>rmation <span class="text-danger">Tech</span>nology Student</h5>
+                        <h5 class="text-uppercase text-white-50 mb-3">of <span class="text-white">Sorsogon State University Bulan Campus</span></h5>
                         <div class="col-12">
                             <div class="d-flex flex-row flex-wrap">
                                 <!-- <button type="button" class="btn btn-secondary me-3 text-uppercase">Hire me</button> -->
@@ -65,14 +65,108 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 p-3 text-center d-none d-md-block">
-                        <!-- <img src="img/mike.jpg" id="logoMike" class="img-fluid rounded-circle" width="300px" alt="" srcset=""> -->
+                    <div class="col-md-4 p-3 text-center d-none d-md-block">
+                        
+                        <img src="img/mike.jpg" id="logoMike" class="img-fluid rounded-circle" width="300px" alt="" srcset="">
                     </div>
                 </div>
             </div>
         </section>
     </main>
     <!-- ================ End Main Area ======================================= -->
+
+    <section class="section mb-5 p-3" id="boutme">
+        <div class="container-lg mt-5 mb-3">
+            <div class="card bg-dark p-2">
+                <h1 class="text-center text-info mb-4 mt-3">About Me</h1>
+                <hr class="text-white px-3 mt-0 mb-3">
+                <div class="row p-2">
+                    <div class="col-md-6 ps-3">
+                        <h2 class="text-white mb-0">
+                            <span class="text-warning">Mi</span>ke 
+                            <span class="text-warning">St</span>ephen 
+                            <span class="text-warning">Ma</span>ndo 
+                            <span class="text-warning">Go</span>llena
+                        </h2>
+                        <h5 class="text-muted mt-0 mb-2"> IT student</h5>
+
+                        <h6 class="text-white mt-2"><i class="fa fa-address-book" aria-hidden="true"></i> Purok 4, MonteCalvario Bulan, Sorsogon</h6>
+                        <h6 class="mt-3 text-white"><i class="fa fa-at" aria-hidden="true"></i><a href="gollenamikestephen@gmail.com" style="color: white;"> gollenamikestephen@gmail.com</a></h6>
+                        <h6 class="mt-1 text-white"><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/DJmistMAGO" style="color: white;"> https://github.com/DJmistMAGO</a></h6>
+                        <h6 class="mt-1 text-white"><i class="fa fa-mobile-phone" aria-hidden="true"></i> +639129726563</h6>
+
+                        <a href="#">
+                            <button type="button" class="btn btn-sm btn-secondary mt-2">Contact me</button>
+                        </a>
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-md-12 mb-3">
+                            <h3 class="text-white mb-3">My Skills</h3>
+                            <h5 class="text-white"><i class="text-danger fa fa-html5" aria-hidden="true"></i> HTML 5</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                            </div>
+
+                            <h5 class="text-white mt-2"><i class="text-primary fa fa-css3" aria-hidden="true"></i> CSS 3</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                            </div>
+
+                            <h5 class="text-white mt-2"><i class="fab fa-bootstrap" style="color: rgb(247, 20, 247);" aria-hidden="true"></i> Bootstrap 5</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section mb-5 mt-2" id="projects">
+        <div class="container-lg mt-5 mb-3">
+            <div class="card bg-dark p-2">
+                <h1 class="text-center text-primary mb-4 mt-3">My Projects</h1>
+                <hr class="text-success px-3 mt-0 mb-3">
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card bg-light">
+                            <h5 class="text-center card-title">Notes App</h5>
+                            <div class="img-top">
+                                <a href="https://github.com/djMist1080p/notes_app">
+                                    <button class="btn btn-sm btn-outline-secondary">View Project</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-light">
+                            <h5 class="text-center card-title">Weather App</h5>
+                            <div class="img-top">
+                                <a href="https://github.com/DJmistMAGO/WeatherApp_AdvancedWeb">
+                                    <img src="img/jeremy-bishop-G9i_plbfDgk-unsplash.jpg" alt="" class="img-fluid" height="100px" style="overflow: cover;">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-light">
+                            <h5 class="text-center card-title">Chat App</h5>
+                            <div class="img-top">
+                                <a href="#">
+                                    <img src="img/jeremy-bishop-G9i_plbfDgk-unsplash.jpg" alt="" class="img-fluid" height="100px" style="overflow: cover;">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 

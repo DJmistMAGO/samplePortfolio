@@ -1,7 +1,13 @@
 body{
     font-family: "Roboto";
-    background: url(../img/jeremy-bishop-G9i_plbfDgk-unsplash.jpg);
-    background-position: center;
+    background:
+    linear-gradient(
+        313deg,
+        rgba(0, 0, 0, 0.5),
+        rgb(1, 5, 43)),
+          url(../img/vackground-vo-M6JACr-k-unsplash.jpg);
+   
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -37,11 +43,14 @@ body{
     height: auto;
 }
 
-/* .site-main .site-banner{
-    height: 90vh;
-    background: url(../img/jeremy-bishop-G9i_plbfDgk-unsplash.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-} */
+a.nav-link:hover{
+    color: rgb(12, 170, 12);
+}
+
+.section{
+    margin-top: 10%;
+}
+
+#boutme{
+    border-radius: 15px;
+}
